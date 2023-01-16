@@ -12,7 +12,7 @@ ENV API_KEY "**None**"
 COPY ./swagger.json /usr
 ENV SWAGGER_JSON "/usr/swagger.json"
 ENV PORT 8080
-ENV BASE_URL ""
+ENV BASE_URL "/docs"
 ENV SWAGGER_JSON_URL ""
 
 COPY ./docker/nginx.conf ./docker/cors.conf /etc/nginx/
