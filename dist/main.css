@@ -1,3 +1,11 @@
 .try-out{
     display: none !important;
 }
+
+.download-url-wrapper {
+    display: none !important;
+}
+
+.info a {
+    display: none !important; 
+}
