@@ -46,7 +46,7 @@ you could do something like this:
 var SwaggerUIBundle = require('swagger-ui-dist').SwaggerUIBundle
 
 const ui = SwaggerUIBundle({
-    url: "https://petstore.swagger.io/v2/swagger.json",
+    url: "https://raw.githubusercontent.com/vinnie-hso/swagger-ui-bseg-doc/main/swagger.json",
     dom_id: '#swagger-ui',
     presets: [
       SwaggerUIBundle.presets.apis,
@@ -165,6 +165,6 @@ The folder `/dist` includes all the HTML, CSS and JS files needed to run Swagger
 
 1. Download the [latest release](https://github.com/swagger-api/swagger-ui/releases/latest).
 1. Copy the contents of the `/dist` folder to your server.
-1. Open `index.html` in your HTML editor and replace "https://petstore.swagger.io/v2/swagger.json" with the URL for your OpenAPI 3.0 spec.
+1. Open `index.html` in your HTML editor and replace "https://raw.githubusercontent.com/vinnie-hso/swagger-ui-bseg-doc/main/swagger.json" with the URL for your OpenAPI 3.0 spec.
 
 

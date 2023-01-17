@@ -36,7 +36,7 @@ You can specify a local file in `dev-helpers/index.html` by changing the `url` p
 
 replace
 ```
-url: "https://petstore.swagger.io/v2/swagger.json",
+url: "https://raw.githubusercontent.com/vinnie-hso/swagger-ui-bseg-doc/main/swagger.json",
 ```
 
 with
