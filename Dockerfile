@@ -10,7 +10,7 @@ LABEL maintainer="fehguy"
 
 ENV API_KEY "**None**"
 COPY ./swagger.json /usr
-ENV SWAGGER_JSON "/usr/swagger.json"
+ENV SWAGGER_JSON "/app/swagger.json"
 ENV PORT 8080
 ENV BASE_URL "/docs"
 ENV SWAGGER_JSON_URL ""
