@@ -16,6 +16,7 @@ ENV BASE_URL "/docs"
 ENV SWAGGER_JSON_URL ""
 
 COPY ./docker/nginx.conf ./docker/cors.conf /etc/nginx/
+COPY ./docker/.htpasswd /etc/nginx/
 
 # copy swagger files to the `/js` folder
 COPY ./dist/* /usr/share/nginx/html/
